@@ -1,11 +1,18 @@
 body{
 	background: rgba(153, 153, 153, 0.5);
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
 	color: white;
 	float: center;
 	margin: 20px 20px 20px 20px;	
 	padding: 10px 0 10px 0;
+}
+
+article {
+	width: 960px;
+	margin: 50px auto 50px auto;
+	padding: 50px;
 }
 
 header {
@@ -16,6 +23,10 @@ header {
 h1 {
 	color: white;
 	float: center;
+}
+
+h2 {
+	margin-bottom: 30px;
 }
 
 nav {
