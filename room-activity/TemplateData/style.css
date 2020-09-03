@@ -16,3 +16,61 @@
 .webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	background: rgba(153, 153, 153, 0.5);
+	width 600px
+	margin: 40px auto 40px auto;
+}
+
+article {
+	width: 960px;
+	margin: 50px auto 50px auto;
+	padding: 50px;
+}
+
+header {
+	text-align: center;
+}
+
+h1 {
+	font-size: 48px;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+nav {
+	margin-top: 80px;
+	letter-spacing: 1px;
+}
+
+nav a {
+	text-transform: uppercase;
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover {
+	color: #b96c9e;
+}
+
+
+footer {
+	clear: both;
+	text-align: center;
+	color: rgba(153, 153, 153, 0.9);
+	font-size: 12px;
+	padding: 50px 50px 0 50px;
+}
