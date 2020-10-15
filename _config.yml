@@ -1,0 +1,72 @@
+---
+title: Jake Meaker
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+subtitle: BA Game Development Programmer at Falmouth University
+description: Jake Meaker - Games Programming Student
+url: https://jakeusmeaker.github.io/
+baseurl: 
+urls:
+- text: About Me
+  url: "/about"
+- text: Portfolio
+  url: "/portfolio"
+- text: Blog
+  url: "/blog"
+- text: Contact Me
+  url: "/contact"
+author_logo: jakedave.png
+author: Jake Meaker
+author_bio: Hello, my name is Jake Meaker. Coding for games is my thing. Knowing people
+  are enjoying my games is the best feeling ever!
+author_email: jake.meaker@yahoo.co.uk
+author_location: United Kindom
+author_website_url: jakeusmeaker.github.io
+author_education_details:
+- college_logo: GamesAcademyLogo.png
+  college_name: Falmouth Games Academy
+  college_url: https://www.falmouth.ac.uk/departments/games-academy
+  college_degree: BA Game Development - Programming
+  description: Bachelor of Arts
+  visibility: true
+twitter_username: JakeusMeakus
+github_username: JakeusMeaker
+instagram_username: jakeusmeakus
+disqus_shortname: jakemeaker
+formspree_email: jake.meaker@yahoo.co.uk
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+google_analytics: UA-46783401-10
+show_author_work_experiences: false
+show_author_education_details: true
+show_author_project_details: false
+paginate: 4
+per_page: 4
+paginate_path: "/blog/page/:num/"
+remote_theme: devlopr
+plugins:
+- jekyll-feed
+- jekyll-paginate
+- jekyll-gist
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-menus
+exclude:
+- ".sass-cache/"
+- ".jekyll-cache/"
+- gemfiles/
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+destination: "./build"
